@@ -1,0 +1,39 @@
+
+
+header {
+    background-color: #333;
+    width: 100%;
+   
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo  {
+    text-decoration: none;
+    color:chocolate;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+
+
+.navigation a {
+    color:chocolate;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.navigation a:hover {
+    color:coral;
+}
+
+.logo :hover {
+    color:coral;
+}
+

@@ -1,0 +1,13 @@
+.container {
+    margin-top: 50px;
+  }
+  
+  .card-container {
+    display: flex;
+    overflow-x: auto; /* Permettre le défilement horizontal si nécessaire */
+  }
+  
+  .card {
+    margin-right: 10px; /* Petit espacement entre les cartes */
+  }
+  

@@ -1,0 +1,34 @@
+.caption-container {
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -500px;
+    padding: 0 20px; 
+    color:#FFFFFF;
+}
+.btn {
+    background-color: #FF8C00; 
+    color:dimgray; 
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+  
+
+
+.fadeIn-text {
+  animation: fadeIn 5s ease-in-out;
+}
+
+  
+
